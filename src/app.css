@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.search-form{
+    margin: 20px auto;
+    text-align: center;
+}
+.Main-recipes{
+    display: flex;
+    flex-wrap: wrap;
+}
+.search-form input{
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.search-form button{
+    padding: 8px;
+    border: none;
+    border-radius: 40%;
+    background-color: rgb(244, 244, 247);
+    color: rgb(20, 80, 192);
+}
+.search-form button:hover{
+    background-color: rgb(226, 234, 236);
+}
+.form-main h2{
+    font-weight: 800;
+    font-style: italic;
+}
+
+@media screen and (max-width:800px) {
+    .Main-recipes{
+        margin: 0 auto;
+        justify-content: center;
+    }
+}
